@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>@yield('titlebar')</title>
+		<!--CSS-->
+		{{HTML::style('css/bootstrap-theme.css')}}
+		{{HTML::style('css/bootstrap.css')}}
+		{{HTML::style('css/custom.css')}}
+		<!--JS-->
+		{{HTML::script('js/jQuery.js')}}
+		{{HTML::script('js/bootstrap.js')}}
+		{{HTML::script('js/custom.js')}}
+	</head>
+	<body>
+		@yield('content')
+	</body>
+</html>
